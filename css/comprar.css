@@ -1,0 +1,183 @@
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(155deg, #aaa19e 0, #818587 25%, #52656d 50%, #214655 75%, #002e43 100%);
+}
+
+/* header */
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+#header img {
+    height: 3vw;
+    width: 3vw;
+}
+
+#header h1 {
+    font-weight: 100;
+    color: #275c55;
+} 
+/* header */
+
+
+/* main */
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    margin-right: 1vw;
+}
+
+#datosCompra {
+    background-color: #294142;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    /* padding-left: 20vw; */
+
+}
+
+#datosCompra h3 {
+    text-decoration: underline;
+    color: white;
+}
+
+#main2 div h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form label {
+    margin-right: 18px;
+    color: white;
+}
+
+#form label input {
+    background-color: grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+
+#datosNameSurname {
+    display: flex;
+    justify-content: center;
+}
+
+#datosPersona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#datosPersona label {
+    margin-bottom: 15px;
+}
+
+#carritoAside {
+    background-color: #49705f;
+    width: 30%;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-top: 4vw;
+    min-height: 100%;
+    border: 2px solid grey;
+
+}
+
+#carritoAside h3 {
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#carritoFinal {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%s;
+}
+
+#imgCarritoFinal {
+    width: 6vw;
+    height: 8vw;
+    margin-right: 15px;
+}
+
+#precioFinal {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+
+#informacionPago {
+    background-color: #294142;
+    min-height: 10vw;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10vw;
+    width: 100%;
+    border: 2px solid grey;
+}
+
+#informacionPago h3 {
+    text-decoration: underline;
+    color: white;
+}
+
+#formPago {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+}
+
+#formPago div input {
+    margin-left: 24vw;
+    width: 40%;
+    background-color: #2f3d80;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#formPago div input:hover {
+    background-color: #151b38;
+    color: white;
+}
+
+
+#formPago input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+
+/* main */

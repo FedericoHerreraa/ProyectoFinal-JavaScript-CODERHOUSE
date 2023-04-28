@@ -1,0 +1,7 @@
+
+
+[
+    {"id": 2, "producto": "Remera", "precio": "3000", "imagen": "/img/productos/remera.jpg"},
+    {"id": 6, "producto": "Top mujer", "precio": "1900", "imagen": "/img/productos/top-mujer.jpg"},
+    {"id": 14, "producto": "Chancletas", "precio": "5100", "imagen": "/img/productos/chancletas.jpg"}
+]

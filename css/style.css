@@ -1,0 +1,425 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    padding: 0px;
+    margin:  0px;
+    background-image: url(/img/fondo/fondoBody5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* header */
+
+#header {
+    background-color: #63605f;
+}
+
+/* nav */
+#nav{
+    display: flex;
+    background-color: #2d2e3d;
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contenedorNav{
+    display: flex;
+    align-items: center;
+    
+}
+
+#titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #599990;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 46px;    
+}
+/* nav */
+
+
+/* sub-nav */
+#sub-nav {
+    background-color: black;
+    margin-top: 0px;
+    opacity: 1;
+    margin-bottom: 0vw;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin: 8px;
+    
+}
+
+
+
+#nav-link0 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#home:hover {
+    text-decoration: underline;
+}
+
+
+
+.nav-link1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#carrito{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 40px;
+    background-color: black;
+    border: none;
+}
+
+#carrito:hover {
+    text-decoration: underline;
+}
+
+#tituloModalCarrito {
+    display: flex;
+    align-items: center;
+}
+
+#exampleModalLabel {
+    margin-left: 5px;
+}
+
+#carritoModal {
+    background-color: beige;
+}
+
+#carritoVacioMsj {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: #365380;
+}
+
+#imgProductoCarrito {
+    height: 13vw;
+    width: 11vw;
+}
+
+.eliminarProductoCarrito {
+    background-color: rgb(130, 73, 73);
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+    color: white;
+
+}
+
+.eliminarProd {
+    animation: eliminarProd 1s 0s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes eliminarProd {
+    100% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+#modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#modal-footer p {
+    font-size: 18px;
+}
+
+#btnVaciarCarrito {
+    background-color: rgb(130, 73, 73);
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 4vw;
+}
+
+
+
+
+.nav-link2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#registro{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+#registro:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.nav-link3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#ingresa{
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+#ingresa:hover {
+    text-decoration: underline;
+}
+
+
+
+
+#nav-link4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#sobreNosotros {
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+#sobreNosotros:hover {
+    text-decoration: underline;
+
+}
+/* sub-nav */
+
+/* header */
+
+
+
+/* main */
+
+.main {
+    display: flex;
+}
+
+.carousel-inner .carousel-item img {
+    height: 33vw;
+}
+
+.tituloProductos {
+    display: flex;
+    justify-content: center;
+    background-color: #232b3d;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    border-top: 1px solid #3b3c3d;
+    border-bottom: 1px solid #3b3c3d;
+    
+}
+
+.tituloProductos h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #599990;
+    font-family: sans-serif;
+
+}
+
+#productos {
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    min-height: 600px;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+
+#card-body {
+    margin: 5px;
+    margin-bottom: 2vw;
+    transition: all 0.2s;
+}
+
+#card-body:hover {
+    box-shadow: 0px 5px 10px 9px;
+}
+
+#imgProducto {
+    height: 17vw;
+    width: auto;
+}
+
+.btnAgregarCarrito {
+    background-color: #232b3d;
+    border: none;
+    color: white;
+    text-decoration: none;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+#card-carrito {
+    background-color: #7d7957;
+}
+
+.btnAgregarCarrito:hover {
+    color: grey;
+}
+
+.asideProductos {
+    background-image: url(https://i.pinimg.com/236x/e1/6b/68/e16b682424f3990d09acf05e7eddc2bb.jpg);
+    opacity: 0.8;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    width: 20%;
+    box-shadow: 0px 0px 9px 10px;
+
+}
+
+#productosEnDescuento {
+    display: flex;
+    background-color: #546170;
+    width: 100%;
+    margin-bottom: 1vw;
+    padding-top: 10px;
+    margin-top: 1.5vw;
+}
+
+#imagenProdDescuento {
+    height: 22vw;
+    width: 21vw;
+}
+
+#cardDescuento {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    transition: all 0.2s;
+    box-shadow: 7px 8px 17px 10px;
+}
+
+#cardDescuento:hover {
+    opacity: 0.7;
+}
+
+#bodyDescuento {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* main */
+
+
+
+/* footer */
+
+#footer {
+    background: linear-gradient(180deg, #252526 , #555557);
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+}
+
+.hr {
+    background-color: black;
+    width: 30vw;
+    margin: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vw;
+
+}
+
+.hrText {
+    color: #555557;
+}
+
+#contenidoFooter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.logo {
+    width: 2vw;
+    height: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 1.7vw;
+    margin-right: 1vw;
+}
+
+#nombrePagFooter {
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: white;
+}
+
+.contenedorNombrePagFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    flex-direction: column;
+}
+
+.contenedorNombrePagFooter a {
+    text-decoration: none;
+    color: grey;
+}
+
+.contenedorNombrePagFooter a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+/* footer */

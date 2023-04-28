@@ -1,0 +1,20 @@
+
+
+[
+    {"id": 1, "producto": "Buzo", "precio": 7000, "cantidad": 1, "imagen": "/img/productos/buzo.jpg"},
+    {"id": 2, "producto": "Remera", "precio": 3500, "cantidad": 1, "imagen": "/img/productos/remera.jpg"},
+    {"id": 3, "producto": "Pantalon hombre", "precio": 6500, "cantidad": 1, "imagen": "/img/productos/pantalon-hombre.jpg"},
+    {"id": 4, "producto": "Short", "precio": 2300, "cantidad": 1, "imagen": "/img/productos/short.jpg"},
+    {"id": 5, "producto": "Malla hombre", "precio": 1700, "cantidad": 1, "imagen": "/img/productos/malla-hombre.jpg"},
+    {"id": 6, "producto": "Top mujer", "precio": 2300, "cantidad": 1, "imagen": "/img/productos/top-mujer.jpg"},
+    {"id": 7, "producto": "Medias", "precio": 800, "cantidad": 1, "imagen": "/img/productos/medias.jpg"},
+    {"id": 8, "producto": "Zapatillas", "precio": 16000, "cantidad": 1, "imagen": "/img/productos/zapatillas1.jpg"},
+    {"id": 9, "producto": "Remera mujer", "precio": 2800, "cantidad": 1, "imagen": "/img/productos/remera-mujer.jpg"},
+    {"id": 10, "producto": "Buzo", "precio": 6000, "cantidad": 1,  "imagen": "/img/productos/buzo2.jpg"},
+    {"id": 11, "producto": "Calzas deportivas", "precio": 1900, "cantidad": 1, "imagen": "/img/productos/calzas-deportivas.jpg"},
+    {"id": 12, "producto": "Short", "precio": 3100, "cantidad": 1, "imagen": "/img/productos/short2.jpg"},
+    {"id": 13, "producto": "Zapatillas", "precio": 14000, "cantidad": 1, "imagen": "/img/productos/zapatillas2.jpg"},
+    {"id": 14, "producto": "Chancletas", "precio": 5500, "cantidad": 1, "imagen": "/img/productos/chancletas.jpg"},
+    {"id": 15, "producto": "Jean", "precio": 4900, "cantidad": 1, "imagen": "/img/productos/jean.jpg"},
+    {"id": 16, "producto": "Campera de jean", "precio": 8700, "cantidad": 1, "imagen": "/img/productos/campera-de-jean.jpg"}
+]
